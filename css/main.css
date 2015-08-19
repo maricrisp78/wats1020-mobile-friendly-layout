@@ -4,19 +4,116 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+	background-color: #8FBACC;
+	
+}
+
+h1 {
+	color: #331C15;
+	text-align: center;
+	background-color: gray;
+	padding: 20px;
+
+}
+
+#container {
+	width: 960px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+img {
+	padding: 25px;
+}
 
 
 
 
+.col-sm-3 {
+	background-color: #3D2B14;
+}
+
+.col-sm-8 {
+	border: 8px solid gray;
+	background-color: #706F6E;
+	color: white;
+	width: 17%;
+	height: 190px;
+	margin-left: 247px;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.col-sm-8_2 {
+	border: 8px solid gray;
+	margin-left: 26px;
+	width: 17%;
+	padding: 10px;
+
+}
 
 
+.col-sm-8_3 {
+	border: 8px solid gray;
+	width: 17%;
+	margin-left: 26px;
+	padding: 0px;
+}
 
 
+h6 {
+	color: white;
+	text-align: center;
+}
 
 
+td {
+	padding: 1px;
+	
+}
 
+td b {
+	color: white;
+}
 
+tr {
+	color: black;
+}
 
+@media screen and (max-width:959px) {
+	
+	
+	#container {
+		width: 100%;
+	}
 
+img {
+	width: 100%;
+	
+	}	
+	
+}	
+	
+@media screen and (max-width:500px) {
 
+div.one-third {
+	width: 47.5%;
+}
 
+div.one-third-second {
+	margin: 0;
+}
+
+div.one-third-last {
+	clear: both;
+	float: none;
+	width: auto;
+	padding: 20px, 0 0 0;
+}
+	
+#container ul {
+	list-style-type: none;
+	display: inline;
+}
+}
